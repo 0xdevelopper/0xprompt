@@ -1,0 +1,136 @@
+@import"https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap";
+
+body {
+    background-image: url('image.png');
+}
+
+* {
+    font-family: Manrope, sans-serif;
+    font-size: 0.7vw;
+    font-weight: 500;
+}
+
+.announce-container {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    color: var(--white);
+    padding: 1.5%;
+}
+.announce-contain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.announce-notif {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--degrade-radial-sombre);
+    color: var(--white);
+    padding: 0.1% 5%;
+    gap: 0.1vw;
+    max-width: 25%;
+    border-radius: 0.15vw 0 0.15vw 0vw;
+    border: solid 0.1px 0.1px 0px 0.1px #FFFF;
+    text-align: center;
+}
+
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue);
+    height: 0.2vw;
+    border-radius: 0 5vw 5vw 0.15vw;
+    width: 100%;
+}
+
+/* h1 {
+    font-size: 1.5vw;
+} */
+
+* {
+    font-family: Manrope, sans-serif
+}
+
+.prompt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    width: 97vw;
+    color: var(--white-50);
+    font-size: 0.7vw;
+}
+
+.desc {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 1vw;
+}
+
+.prompt-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--degrade-radial-sombre);
+    color: var(--white);
+    padding: 1.4vw;
+    border-radius: 0.2vw;
+    font-size: 0.7vw;
+    font-weight: 100;
+    border: solid 0.1vw var(--white-30);
+}
+
+
+h1 {
+    font-size: 1vw;
+    color: var(--white);
+    margin-bottom: 0.2vw;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8vw;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 0.7vw;
+    color: var(--white-50);
+    gap: 0.2vw;
+    padding: 0.6vw 2.3vw;
+    border-radius: 0.2vw;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(0.8);
+        transition: filter .3s;
+    }
+
+}
+
+b {
+    font-size: 0.7vw;
+    color: var(--white);
+}
+
+.refuse {
+    background: var(--grey);
+}
+
+.accept {
+    background: var(--green);
+}

@@ -1,0 +1,18 @@
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --red: #C33131;
+    --blue: #f45050;
+    --white: rgba(255, 255, 255, 1);
+    --white-70: rgba(255, 255, 255, .7);
+    --white-50: rgba(255, 255, 255, .5);
+    --white-30: rgba(255, 255, 255, .3);
+    --white-0: rgba(255, 255, 255, 0);
+    --green: #3DDE98;
+    --grey: rgba(20, 22, 24, .5);
+    --degrade-radial-sombre: linear-gradient(180deg, rgba(21, 77, 187, .02) 0%, rgba(21, 77, 187, .08) 100%), radial-gradient(50% 50% at 50% 50%, rgba(27, 28, 30, .48) 0%, rgba(27, 28, 30, .36) 100%);
+    --degrade-radial-clair: linear-gradient(180deg, rgba(152, 191, 228, .2) 0%, rgba(154, 191, 224, .04) 100%);
+    --degrade-radial: radial-gradient(50% 50% at 50% 50%, rgba(26, 36, 53, .48) 0%, rgba(26, 36, 53, .36) 100%);
+    --degrade-radial-noir: radial-gradient(50% 50% at 50% 50%, rgba(39, 42, 48, .64) 0%, rgba(39, 42, 48, .48) 100%);
+    --degrade-radial-bleu: radial-gradient(50% 50% at 50% 50%, rgba(49, 70, 106, .64) 0%, rgba(39, 64, 104, .48) 100%);
+    --degrade-radial-rouge: radial-gradient(50% 50% at 50% 50%, rgba(106, 49, 49, .64) 0%, rgba(104, 39, 39, .48) 100%)
+}
