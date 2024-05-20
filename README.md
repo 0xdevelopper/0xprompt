@@ -44,6 +44,7 @@ false = On enlève l'annonce. (En cas de bug.)
 ===================== PROMPT EXPORTS  =====================
 
 
+============================================================
 exports["0xprompt]:createPrompt({title = "", text1 = "", text2 = ""}, function(response)
      if response then 
         print("Le client à accepter")
@@ -51,6 +52,7 @@ exports["0xprompt]:createPrompt({title = "", text1 = "", text2 = ""}, function(r
         print("Le client à refuser")
     end
 end)
+============================================================
 
 
 Vous devez après adatper vos réponses, comme envoyer une notification, faire une action de confirmations (Envoie d'argent ect). Ce prompt peut-être utile dans pleins de situation.
