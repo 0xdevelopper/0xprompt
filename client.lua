@@ -33,11 +33,6 @@ exports("sannounce", function(bool, title, text1, time)
     Announce:sAnnounce(bool, title, text1, time)
 end)
 
--- how to use the exports ? 
--- exports["0xprompt"]:announce(true, "title", "text1", 5000)
--- exports["0xprompt"]:sannounce(true, "title", "text1", 5000)
-
-
 Prompt = Prompt or {}
 
 Prompt.Show = false
